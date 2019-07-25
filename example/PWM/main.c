@@ -101,7 +101,7 @@ void PWM_Initialization_TIM3(uint16_t period, uint16_t pulse) {
 
 
 /*	Clock Initialization Function
- *		No external clocks attach. Uses internal low-speed clock (LSI) for TIM3 PWM2
+ *		No external clocks attach. Uses internal high-speed clock (HSI) for TIM3 PWM2
  *
  */
 void CLK_Initialization_TIM3(void) {
