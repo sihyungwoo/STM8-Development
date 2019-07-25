@@ -1,0 +1,1338 @@
+
+Map of Debug\pwm-disc.sm8 from link file Debug\pwm-disc.lkf - Thu Jul 25 12:09:17 2019
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008085 length     5 segment .const
+start 00008088 end 00008d9d length  3349 segment .text
+start 00001000 end 00001000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 0000000a length    10 segment .ubsct
+start 0000000a end 0000000a length     0 segment .bit
+start 0000000a end 0000000a length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 000011db length  4571 segment .info.
+start 00000000 end 00026379 length 156537 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 00008085 end 00008088 length     3 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 00008088 end 000080d8 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Debug\main.o:
+start 000080d8 end 00008178 length   160 section .text
+start 00000000 end 0000021c length   540 section .debug
+start 00000034 end 0000009f length   107 section .info.
+
+Debug\stm8l15x_adc.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000021c end 00002156 length  7994 section .debug
+start 0000009f end 00000112 length   115 section .info.
+
+Debug\stm8l15x_aes.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00002156 end 00002969 length  2067 section .debug
+start 00000112 end 00000185 length   115 section .info.
+
+Debug\stm8l15x_beep.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00002969 end 00002cba length   849 section .debug
+start 00000185 end 000001f9 length   116 section .info.
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8l15x_clk.o:
+start 00008178 end 000084d5 length   861 section .text
+start 00002cba end 00004699 length  6623 section .debug
+start 000001f9 end 0000026c length   115 section .info.
+start 00008080 end 00008085 length     5 section .const
+
+Debug\stm8l15x_comp.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00004699 end 0000539d length  3332 section .debug
+start 0000026c end 000002e0 length   116 section .info.
+
+Debug\stm8l15x_dac.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000539d end 00006745 length  5032 section .debug
+start 000002e0 end 00000353 length   115 section .info.
+
+Debug\stm8l15x_dma.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00006745 end 0000779d length  4184 section .debug
+start 00000353 end 000003c6 length   115 section .info.
+
+Debug\stm8l15x_exti.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000779d end 000082fb length  2910 section .debug
+start 000003c6 end 0000043a length   116 section .info.
+
+Debug\stm8l15x_flash.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 000082fb end 000091e6 length  3819 section .debug
+start 0000043a end 000004af length   117 section .info.
+
+Debug\stm8l15x_gpio.o:
+start 000084d5 end 000085a1 length   204 section .text
+start 000091e6 end 00009d27 length  2881 section .debug
+start 000004af end 00000523 length   116 section .info.
+
+Debug\stm8l15x_i2c.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00009d27 end 0000c175 length  9294 section .debug
+start 00000523 end 00000596 length   115 section .info.
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8l15x_irtim.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000c175 end 0000c3d0 length   603 section .debug
+start 00000596 end 0000060b length   117 section .info.
+
+Debug\stm8l15x_itc.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000c3d0 end 0000cac2 length  1778 section .debug
+start 0000060b end 0000067e length   115 section .info.
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\stm8l15x_iwdg.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000cac2 end 0000ce67 length   933 section .debug
+start 0000067e end 000006f2 length   116 section .info.
+
+Debug\stm8l15x_lcd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000ce67 end 0000e68e length  6183 section .debug
+start 000006f2 end 00000765 length   115 section .info.
+
+Debug\stm8l15x_pwr.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000e68e end 0000ed26 length  1688 section .debug
+start 00000765 end 000007d8 length   115 section .info.
+
+Debug\stm8l15x_rst.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000ed26 end 0000efbb length   661 section .debug
+start 000007d8 end 0000084b length   115 section .info.
+
+Debug\stm8l15x_rtc.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000efbb end 00011e5e length 11939 section .debug
+start 0000084b end 000008be length   115 section .info.
+
+Debug\stm8l15x_spi.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00011e5e end 000131a8 length  4938 section .debug
+start 000008be end 00000931 length   115 section .info.
+
+Debug\stm8l15x_syscfg.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 000131a8 end 000145ef length  5191 section .debug
+start 00000931 end 000009a7 length   118 section .info.
+
+Debug\stm8l15x_tim1.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 000145ef end 00019305 length 19734 section .debug
+start 000009a7 end 00000a1b length   116 section .info.
+
+Debug\stm8l15x_tim2.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00019305 end 0001c6a8 length 13219 section .debug
+start 00000a1b end 00000a8f length   116 section .info.
+
+Debug\stm8l15x_tim3.o:
+start 000085a1 end 00008c28 length  1671 section .text
+start 0001c6a8 end 0001fa4b length 13219 section .debug
+start 00000a8f end 00000b03 length   116 section .info.
+
+Debug\stm8l15x_tim4.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0001fa4b end 00020cec length  4769 section .debug
+start 00000b03 end 00000b77 length   116 section .info.
+
+Debug\stm8l15x_tim5.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00020cec end 0002408f length 13219 section .debug
+start 00000b77 end 00000beb length   116 section .info.
+
+Debug\stm8l15x_usart.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0002408f end 0002586c length  6109 section .debug
+start 00000beb end 00000c60 length   117 section .info.
+
+Debug\stm8l15x_wfe.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0002586c end 00025f4b length  1759 section .debug
+start 00000c60 end 00000cd3 length   115 section .info.
+
+Debug\stm8l15x_wwdg.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00025f4b end 0002620e length   707 section .debug
+start 00000cd3 end 00000d47 length   116 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)cmulx.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000d47 end 00000d77 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)imul.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000d77 end 00000da6 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000da6 end 00000dd5 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000dd5 end 00000e04 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000e04 end 00000e34 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsbc.o:
+start 00008c28 end 00008c3e length    22 section .text
+start 00000e34 end 00000e64 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000e64 end 00000e93 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 00000000 end 00000004 length     4 section .ubsct
+start 00000e93 end 00000ec2 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 00008c3e end 00008c50 length    18 section .text
+start 00000ec2 end 00000ef1 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o:
+start 00008c50 end 00008c64 length    20 section .text
+start 00000ef1 end 00000f21 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o:
+start 00008c64 end 00008d4f length   235 section .text
+start 00000f21 end 00000f50 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o:
+start 00008d4f end 00008d62 length    19 section .text
+start 00000f50 end 00000f80 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o:
+start 00008d62 end 00008d77 length    21 section .text
+start 00000f80 end 00000faf length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lursh.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 00000faf end 00000fdf length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lzmp.o:
+start 00008d77 end 00008d8a length    19 section .text
+start 00000fdf end 0000100e length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 00008d8a end 00008d9c length    18 section .text
+start 0000100e end 0000103d length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000103d end 0000106d length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)smul.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000106d end 0000109c length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utol.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000109c end 000010cb length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000004 end 00000007 length     3 section .ubsct
+start 000010cb end 000010fa length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000007 end 0000000a length     3 section .ubsct
+start 000010fa end 00001129 length    47 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 00008d9c end 00008d9d length     1 section .text
+start 0002620e end 00026379 length   363 section .debug
+start 00001129 end 000011a5 length   124 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\main.o:
+_CLK_Initialization_TIM3                  7   (2)
+_Delay                               >    8   (6)
+_GPIO_Initialization_TIM3                 8   (2)
+_PWM_Initialization_TIM3                 15   (6)
+_main                                >   17   (2)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt                >    6   (6)
+
+Debug\stm8l15x_clk.o:
+_CLK_AdjustHSICalibrationValue       >    2   (2)
+_CLK_BEEPClockConfig                 >    2   (2)
+_CLK_CCOConfig                       >    4   (4)
+_CLK_ClearFlag                       >    2   (2)
+_CLK_ClearITPendingBit               >    2   (2)
+_CLK_ClockSecuritySystemEnable       >    2   (2)
+_CLK_ClockSecuritySytemDeglitchCmd   >    2   (2)
+_CLK_DeInit                               2   (2)
+_CLK_GetClockFreq                    >   25   (11)
+_CLK_GetFlagStatus                        5   (5)
+_CLK_GetITStatus                     >    4   (4)
+_CLK_GetSYSCLKSource                 >    2   (2)
+_CLK_HSEConfig                       >    2   (2)
+_CLK_HSICmd                               2   (2)
+_CLK_HaltConfig                      >    4   (4)
+_CLK_ITConfig                        >    4   (4)
+_CLK_LSEClockSecuritySystemEnable    >    2   (2)
+_CLK_LSEConfig                       >    2   (2)
+_CLK_LSICmd                               2   (2)
+_CLK_MainRegulatorCmd                >    2   (2)
+_CLK_PeripheralClockConfig                5   (5)
+_CLK_RTCCLKSwitchOnLSEFailureEnable  >    2   (2)
+_CLK_RTCClockConfig                  >    4   (4)
+_CLK_SYSCLKDivConfig                 >    2   (2)
+_CLK_SYSCLKSourceConfig                   2   (2)
+_CLK_SYSCLKSourceSwitchCmd           >    2   (2)
+
+Debug\stm8l15x_gpio.o:
+_GPIO_DeInit                              2   (2)
+_GPIO_ExternalPullUpConfig           >    6   (6)
+_GPIO_Init                                6   (6)
+_GPIO_ReadInputData                  >    2   (2)
+_GPIO_ReadInputDataBit               >    5   (5)
+_GPIO_ReadOutputData                 >    2   (2)
+_GPIO_ReadOutputDataBit              >    5   (5)
+_GPIO_ResetBits                      >    5   (5)
+_GPIO_SetBits                        >    5   (5)
+_GPIO_ToggleBits                     >    5   (5)
+_GPIO_Write                          >    5   (5)
+_GPIO_WriteBit                       >    6   (6)
+
+Debug\stm8l15x_tim3.o:
+L3_TI1_Config                             7   (7)
+L5_TI2_Config                             7   (7)
+_TIM3_ARRPreloadConfig                    2   (2)
+_TIM3_BKRConfig                      >    8   (8)
+_TIM3_CCxCmd                         >    4   (4)
+_TIM3_ClearFlag                      >    4   (4)
+_TIM3_ClearITPendingBit              >    2   (2)
+_TIM3_Cmd                                 2   (2)
+_TIM3_CounterModeConfig              >    4   (4)
+_TIM3_CtrlPWMOutputs                      2   (2)
+_TIM3_DMACmd                         >    4   (4)
+_TIM3_DeInit                              2   (2)
+_TIM3_ETRClockMode1Config            >   10   (5)
+_TIM3_ETRClockMode2Config            >   10   (5)
+_TIM3_ETRConfig                           5   (5)
+_TIM3_EncoderInterfaceConfig         >    8   (8)
+_TIM3_ForcedOC1Config                >    4   (4)
+_TIM3_ForcedOC2Config                >    4   (4)
+_TIM3_GenerateEvent                  >    2   (2)
+_TIM3_GetCapture1                    >    6   (6)
+_TIM3_GetCapture2                    >    6   (6)
+_TIM3_GetCounter                     >    6   (6)
+_TIM3_GetFlagStatus                  >    6   (6)
+_TIM3_GetITStatus                    >    5   (5)
+_TIM3_GetPrescaler                   >    2   (2)
+_TIM3_ICInit                         >   14   (7)
+_TIM3_ITConfig                       >    4   (4)
+_TIM3_InternalClockConfig            >    2   (2)
+_TIM3_OC1FastConfig                  >    2   (2)
+_TIM3_OC1Init                        >    9   (9)
+_TIM3_OC1PolarityConfig              >    2   (2)
+_TIM3_OC1PreloadConfig               >    2   (2)
+_TIM3_OC2FastConfig                  >    2   (2)
+_TIM3_OC2Init                             9   (9)
+_TIM3_OC2PolarityConfig              >    2   (2)
+_TIM3_OC2PreloadConfig                    2   (2)
+_TIM3_PWMIConfig                     >   16   (9)
+_TIM3_PrescalerConfig                >    2   (2)
+_TIM3_SelectCCDMA                    >    2   (2)
+_TIM3_SelectHallSensor               >    2   (2)
+_TIM3_SelectInputTrigger                  4   (4)
+_TIM3_SelectMasterSlaveMode          >    2   (2)
+_TIM3_SelectOCxM                     >    4   (4)
+_TIM3_SelectOnePulseMode             >    2   (2)
+_TIM3_SelectOutputTrigger            >    4   (4)
+_TIM3_SelectSlaveMode                >    4   (4)
+_TIM3_SetAutoreload                  >    2   (2)
+_TIM3_SetCompare1                    >    2   (2)
+_TIM3_SetCompare2                         2   (2)
+_TIM3_SetCounter                     >    2   (2)
+_TIM3_SetIC1Prescaler                     4   (4)
+_TIM3_SetIC2Prescaler                     4   (4)
+_TIM3_TIxExternalClockConfig         >   12   (5)
+_TIM3_TimeBaseInit                        6   (6)
+_TIM3_UpdateDisableConfig            >    2   (2)
+_TIM3_UpdateRequestConfig            >    2   (2)
+
+Stack size: 31
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _CLK_AdjustHSICalibrationValue: (2)
+
+   2 > _CLK_BEEPClockConfig: (2)
+
+   3 > _CLK_CCOConfig: (4)
+
+   4 > _CLK_ClearFlag: (2)
+
+   5 > _CLK_ClearITPendingBit: (2)
+
+   6 > _CLK_ClockSecuritySystemEnable: (2)
+
+   7 > _CLK_ClockSecuritySytemDeglitchCmd: (2)
+
+   8 > _CLK_GetClockFreq: (11)
+
+   9 > _CLK_GetITStatus: (4)
+
+  10 > _CLK_GetSYSCLKSource: (2)
+
+  11 > _CLK_HSEConfig: (2)
+
+  12 > _CLK_HaltConfig: (4)
+
+  13 > _CLK_ITConfig: (4)
+
+  14 > _CLK_LSEClockSecuritySystemEnable: (2)
+
+  15 > _CLK_LSEConfig: (2)
+
+  16 > _CLK_MainRegulatorCmd: (2)
+
+  17 > _CLK_RTCCLKSwitchOnLSEFailureEnable: (2)
+
+  18 > _CLK_RTCClockConfig: (4)
+
+  19 > _CLK_SYSCLKDivConfig: (2)
+
+  20 > _CLK_SYSCLKSourceSwitchCmd: (2)
+
+  21 > _Delay: (6)
+
+  22 > _GPIO_ExternalPullUpConfig: (6)
+
+  23 > _GPIO_ReadInputData: (2)
+
+  24 > _GPIO_ReadInputDataBit: (5)
+
+  25 > _GPIO_ReadOutputData: (2)
+
+  26 > _GPIO_ReadOutputDataBit: (5)
+
+  27 > _GPIO_ResetBits: (5)
+
+  28 > _GPIO_SetBits: (5)
+
+  29 > _GPIO_ToggleBits: (5)
+
+  30 > _GPIO_Write: (5)
+
+  31 > _GPIO_WriteBit: (6)
+
+  32 > _TIM3_BKRConfig: (8)
+
+  33 > _TIM3_CCxCmd: (4)
+
+  34 > _TIM3_ClearFlag: (4)
+
+  35 > _TIM3_ClearITPendingBit: (2)
+
+  36 > _TIM3_CounterModeConfig: (4)
+
+  37 > _TIM3_DMACmd: (4)
+
+  38 > _TIM3_ETRClockMode1Config: (5)
+  39      + _TIM3_ETRConfig: (5)
+       
+  40 > _TIM3_ETRClockMode2Config: (5)
+  41      + _TIM3_ETRConfig --> 39
+       
+  42 > _TIM3_EncoderInterfaceConfig: (8)
+
+  43 > _TIM3_ForcedOC1Config: (4)
+
+  44 > _TIM3_ForcedOC2Config: (4)
+
+  45 > _TIM3_GenerateEvent: (2)
+
+  46 > _TIM3_GetCapture1: (6)
+
+  47 > _TIM3_GetCapture2: (6)
+
+  48 > _TIM3_GetCounter: (6)
+
+  49 > _TIM3_GetFlagStatus: (6)
+
+  50 > _TIM3_GetITStatus: (5)
+
+  51 > _TIM3_GetPrescaler: (2)
+
+  52 > _TIM3_ICInit: (7)
+  53      + L3_TI1_Config: (7)
+  54      + L5_TI2_Config: (7)
+  55      + _TIM3_SetIC1Prescaler: (4)
+  56      + _TIM3_SetIC2Prescaler: (4)
+       
+  57 > _TIM3_ITConfig: (4)
+
+  58 > _TIM3_InternalClockConfig: (2)
+
+  59 > _TIM3_OC1FastConfig: (2)
+
+  60 > _TIM3_OC1Init: (9)
+
+  61 > _TIM3_OC1PolarityConfig: (2)
+
+  62 > _TIM3_OC1PreloadConfig: (2)
+
+  63 > _TIM3_OC2FastConfig: (2)
+
+  64 > _TIM3_OC2PolarityConfig: (2)
+
+  65 > _TIM3_PWMIConfig: (9)
+  66      + L3_TI1_Config --> 53
+  67      + L5_TI2_Config --> 54
+  68      + _TIM3_SetIC1Prescaler --> 55
+  69      + _TIM3_SetIC2Prescaler --> 56
+       
+  70 > _TIM3_PrescalerConfig: (2)
+
+  71 > _TIM3_SelectCCDMA: (2)
+
+  72 > _TIM3_SelectHallSensor: (2)
+
+  73 > _TIM3_SelectMasterSlaveMode: (2)
+
+  74 > _TIM3_SelectOCxM: (4)
+
+  75 > _TIM3_SelectOnePulseMode: (2)
+
+  76 > _TIM3_SelectOutputTrigger: (4)
+
+  77 > _TIM3_SelectSlaveMode: (4)
+
+  78 > _TIM3_SetAutoreload: (2)
+
+  79 > _TIM3_SetCompare1: (2)
+
+  80 > _TIM3_SetCounter: (2)
+
+  81 > _TIM3_TIxExternalClockConfig: (5)
+  82      + L3_TI1_Config --> 53
+  83      + L5_TI2_Config --> 54
+  84      + _TIM3_SelectInputTrigger: (4)
+       
+  85 > _TIM3_UpdateDisableConfig: (2)
+
+  86 > _TIM3_UpdateRequestConfig: (2)
+
+  87 > __stext: (0)
+
+  88 > _main: (2)
+  89      + _CLK_Initialization_TIM3: (2)
+  90      |    + _CLK_DeInit: (2)
+  91      |    + _CLK_GetFlagStatus: (5)
+  92      |    + _CLK_HSICmd: (2)
+  93      |    + _CLK_LSICmd: (2)
+  94      |    + _CLK_PeripheralClockConfig: (5)
+  95      |    + _CLK_SYSCLKSourceConfig: (2)
+          | 
+  96      + _GPIO_Initialization_TIM3: (2)
+  97      |    + _GPIO_DeInit: (2)
+  98      |    + _GPIO_Init: (6)
+          | 
+  99      + _PWM_Initialization_TIM3: (6)
+ 100      |    + _TIM3_ARRPreloadConfig: (2)
+ 101      |    + _TIM3_Cmd: (2)
+ 102      |    + _TIM3_DeInit: (2)
+ 103      |    + _TIM3_OC2Init: (9)
+ 104      |    + _TIM3_OC2PreloadConfig: (2)
+ 105      |    + _TIM3_TimeBaseInit: (6)
+          | 
+ 106      + _TIM3_CtrlPWMOutputs: (2)
+ 107      + _TIM3_SetCompare2: (2)
+       
+ 108 > f_NonHandledInterrupt: (6)
+
+ 109   L3_TI1_Config --> 53
+
+ 110   L5_TI2_Config --> 54
+
+ 111   _CLK_DeInit --> 90
+
+ 112   _CLK_GetFlagStatus --> 91
+
+ 113   _CLK_HSICmd --> 92
+
+ 114   _CLK_Initialization_TIM3 --> 89
+
+ 115   _CLK_LSICmd --> 93
+
+ 116   _CLK_PeripheralClockConfig --> 94
+
+ 117   _CLK_SYSCLKSourceConfig --> 95
+
+ 118   _GPIO_DeInit --> 97
+
+ 119   _GPIO_Init --> 98
+
+ 120   _GPIO_Initialization_TIM3 --> 96
+
+ 121   _PWM_Initialization_TIM3 --> 99
+
+ 122   _TIM3_ARRPreloadConfig --> 100
+
+ 123   _TIM3_Cmd --> 101
+
+ 124   _TIM3_CtrlPWMOutputs --> 106
+
+ 125   _TIM3_DeInit --> 102
+
+ 126   _TIM3_ETRConfig --> 39
+
+ 127   _TIM3_OC2Init --> 103
+
+ 128   _TIM3_OC2PreloadConfig --> 104
+
+ 129   _TIM3_SelectInputTrigger --> 84
+
+ 130   _TIM3_SetCompare2 --> 107
+
+ 131   _TIM3_SetIC1Prescaler --> 55
+
+ 132   _TIM3_SetIC2Prescaler --> 56
+
+ 133   _TIM3_TimeBaseInit --> 105
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_AnalogWatchdogChannelSelect      ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_AnalogWatchdogConfig             ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_AnalogWatchdogThresholdsConfig   ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ChannelCmd                       ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ClearFlag                        ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_Cmd                              ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_DMACmd                           ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_DeInit                           ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ExternalTrigConfig               ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_GetConversionValue               ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_GetITStatus                      ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_ITConfig                         ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_Init                             ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_SamplingTimeConfig               ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_SchmittTriggerConfig             ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_SoftwareStartConv                ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_TempSensorCmd                    ********   *** removed from Debug\stm8l15x_adc.o ***
+_ADC_VrefintCmd                       ********   *** removed from Debug\stm8l15x_adc.o ***
+_AES_ClearFlag                        ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_Cmd                              ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_DMAConfig                        ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_DeInit                           ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_GetITStatus                      ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_ITConfig                         ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_OperationModeConfig              ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_ReadSubData                      ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_ReadSubKey                       ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_WriteSubData                     ********   *** removed from Debug\stm8l15x_aes.o ***
+_AES_WriteSubKey                      ********   *** removed from Debug\stm8l15x_aes.o ***
+_BEEP_Cmd                             ********   *** removed from Debug\stm8l15x_beep.o ***
+_BEEP_DeInit                          ********   *** removed from Debug\stm8l15x_beep.o ***
+_BEEP_Init                            ********   *** removed from Debug\stm8l15x_beep.o ***
+_BEEP_LSClockToTIMConnectCmd          ********   *** removed from Debug\stm8l15x_beep.o ***
+_BEEP_LSICalibrationConfig            ********   *** removed from Debug\stm8l15x_beep.o ***
+_CLK_AdjustHSICalibrationValue        000081c7   defined in Debug\stm8l15x_clk.o section .text
+_CLK_BEEPClockConfig                  000082c3   defined in Debug\stm8l15x_clk.o section .text
+_CLK_CCOConfig                        00008212   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClearFlag                        0000847a   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClearITPendingBit                000084c4   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClockSecuritySystemEnable        000081ff   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ClockSecuritySytemDeglitchCmd    00008204   defined in Debug\stm8l15x_clk.o section .text
+_CLK_DeInit                           00008178   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\main.o
+_CLK_GetClockFreq                     00008223   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\stm8l15x_i2c.o
+                                                         Debug\stm8l15x_usart.o
+_CLK_GetFlagStatus                    000083e5   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\main.o
+_CLK_GetITStatus                      0000847f   defined in Debug\stm8l15x_clk.o section .text
+_CLK_GetSYSCLKSource                  0000821f   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HSEConfig                        000081e1   defined in Debug\stm8l15x_clk.o section .text
+_CLK_HSICmd                           000081b9   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\main.o
+_CLK_HaltConfig                       0000837e   defined in Debug\stm8l15x_clk.o section .text
+_CLK_ITConfig                         000083a5   defined in Debug\stm8l15x_clk.o section .text
+_CLK_Initialization_TIM3              00008146   defined in Debug\main.o section .text
+_CLK_LSEClockSecuritySystemEnable     00008374   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSEConfig                        000081f0   defined in Debug\stm8l15x_clk.o section .text
+_CLK_LSICmd                           000081d3   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\main.o
+_CLK_MainRegulatorCmd                 00008397   defined in Debug\stm8l15x_clk.o section .text
+_CLK_PeripheralClockConfig            000082c7   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\main.o
+_CLK_RTCCLKSwitchOnLSEFailureEnable   00008379   defined in Debug\stm8l15x_clk.o section .text
+_CLK_RTCClockConfig                   000082ba   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKDivConfig                  000082a8   defined in Debug\stm8l15x_clk.o section .text
+_CLK_SYSCLKSourceConfig               0000821b   defined in Debug\stm8l15x_clk.o section .text
+                                                 used in Debug\main.o
+_CLK_SYSCLKSourceSwitchCmd            000082ac   defined in Debug\stm8l15x_clk.o section .text
+_COMP_ClearFlag                       ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_DeInit                          ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_EdgeConfig                      ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_GetFlagStatus                   ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_GetITStatus                     ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_GetOutputLevel                  ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_ITConfig                        ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_Init                            ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_SchmittTriggerCmd               ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_TriggerConfig                   ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_VrefintOutputCmd                ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_VrefintToCOMP1Connect           ********   *** removed from Debug\stm8l15x_comp.o ***
+_COMP_WindowCmd                       ********   *** removed from Debug\stm8l15x_comp.o ***
+_DAC_ClearFlag                        ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_Cmd                              ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_DMACmd                           ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_DeInit                           ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_DualSoftwareTriggerCmd           ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_GetDataOutputValue               ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_GetITStatus                      ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_ITConfig                         ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_Init                             ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_SetChannel1Data                  ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_SetChannel2Data                  ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_SetDualChannelData               ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_SetNoiseWaveLFSR                 ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_SetTriangleWaveAmplitude         ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_SoftwareTriggerCmd               ********   *** removed from Debug\stm8l15x_dac.o ***
+_DAC_WaveGenerationCmd                ********   *** removed from Debug\stm8l15x_dac.o ***
+_DMA_ClearFlag                        ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_Cmd                              ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_DeInit                           ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_GetCurrDataCounter               ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_GetITStatus                      ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_GlobalCmd                        ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_GlobalDeInit                     ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_ITConfig                         ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_Init                             ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_SetCurrDataCounter               ********   *** removed from Debug\stm8l15x_dma.o ***
+_DMA_SetTimeOut                       ********   *** removed from Debug\stm8l15x_dma.o ***
+_Delay                                000080d8   defined in Debug\main.o section .text
+_EXTI_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_DeInit                          ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_GetITStatus                     ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_GetPinSensitivity               ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_GetPortSensitivity              ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_SelectPort                      ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_SetHalfPortSelection            ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_SetPinSensitivity               ********   *** removed from Debug\stm8l15x_exti.o ***
+_EXTI_SetPortSensitivity              ********   *** removed from Debug\stm8l15x_exti.o ***
+_FLASH_DeInit                         ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_EraseBlock                     ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_EraseByte                      ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_EraseOptionByte                ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_GetBootSize                    ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_GetCodeSize                    ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_GetFlagStatus                  ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_GetPowerStatus                 ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_GetProgrammingTime             ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_GetReadOutProtectionStatus     ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_ITConfig                       ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_Lock                           ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_PowerRunModeConfig             ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_PowerWaitModeConfig            ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_ProgramBlock                   ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_ProgramByte                    ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_ProgramOptionByte              ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_ProgramWord                    ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_ReadByte                       ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_SetProgrammingTime             ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_Unlock                         ********   *** removed from Debug\stm8l15x_flash.o ***
+_FLASH_WaitForLastOperation           ********   *** removed from Debug\stm8l15x_flash.o ***
+_GPIO_DeInit                          000084d5   defined in Debug\stm8l15x_gpio.o section .text
+                                                 used in Debug\main.o
+_GPIO_ExternalPullUpConfig            00008545   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Init                            000084dd   defined in Debug\stm8l15x_gpio.o section .text
+                                                 used in Debug\main.o
+_GPIO_Initialization_TIM3             00008108   defined in Debug\main.o section .text
+_GPIO_ReadInputData                   0000858f   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadInputDataBit                00008594   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputData                  00008592   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ReadOutputDataBit               0000859b   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ResetBits                       00008580   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_SetBits                         00008579   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_ToggleBits                      00008588   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_Write                           0000855d   defined in Debug\stm8l15x_gpio.o section .text
+_GPIO_WriteBit                        00008565   defined in Debug\stm8l15x_gpio.o section .text
+_I2C_ARPCmd                           ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_AckPositionConfig                ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_AcknowledgeConfig                ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_CalculatePEC                     ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_CheckEvent                       ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_ClearFlag                        ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_Cmd                              ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_DMACmd                           ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_DMALastTransferCmd               ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_DeInit                           ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_DualAddressCmd                   ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_FastModeDutyCycleConfig          ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GeneralCallCmd                   ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GenerateSTART                    ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GenerateSTOP                     ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GetITStatus                      ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GetLastEvent                     ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_GetPEC                           ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_ITConfig                         ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_Init                             ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_OwnAddress2Config                ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_PECPositionConfig                ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_ReadRegister                     ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_ReceiveData                      ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_SMBusAlertConfig                 ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_Send7bitAddress                  ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_SendData                         ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_SoftwareResetCmd                 ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_StretchClockCmd                  ********   *** removed from Debug\stm8l15x_i2c.o ***
+_I2C_TransmitPEC                      ********   *** removed from Debug\stm8l15x_i2c.o ***
+_IRTIM_Cmd                            ********   *** removed from Debug\stm8l15x_irtim.o ***
+_IRTIM_DeInit                         ********   *** removed from Debug\stm8l15x_irtim.o ***
+_IRTIM_GetHighSinkODStatus            ********   *** removed from Debug\stm8l15x_irtim.o ***
+_IRTIM_GetStatus                      ********   *** removed from Debug\stm8l15x_irtim.o ***
+_IRTIM_HighSinkODCmd                  ********   *** removed from Debug\stm8l15x_irtim.o ***
+_ITC_DeInit                           ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_GetCPUCC                         ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_GetSoftIntStatus                 ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_GetSoftwarePriority              ********   *** removed from Debug\stm8l15x_itc.o ***
+_ITC_SetSoftwarePriority              ********   *** removed from Debug\stm8l15x_itc.o ***
+_IWDG_Enable                          ********   *** removed from Debug\stm8l15x_iwdg.o ***
+_IWDG_ReloadCounter                   ********   *** removed from Debug\stm8l15x_iwdg.o ***
+_IWDG_SetPrescaler                    ********   *** removed from Debug\stm8l15x_iwdg.o ***
+_IWDG_SetReload                       ********   *** removed from Debug\stm8l15x_iwdg.o ***
+_IWDG_WriteAccessCmd                  ********   *** removed from Debug\stm8l15x_iwdg.o ***
+_LCD_BlinkConfig                      ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ClearFlag                        ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_Cmd                              ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ContrastConfig                   ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_DeInit                           ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_DeadTimeConfig                   ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_GetITStatus                      ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_HighDriveCmd                     ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_ITConfig                         ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_Init                             ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_PageSelect                       ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_PortMaskConfig                   ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_PulseOnDurationConfig            ********   *** removed from Debug\stm8l15x_lcd.o ***
+_LCD_WriteRAM                         ********   *** removed from Debug\stm8l15x_lcd.o ***
+_PWM_Initialization_TIM3              0000811a   defined in Debug\main.o section .text
+_PWR_DeInit                           ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_FastWakeUpCmd                    ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_PVDClearFlag                     ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_PVDClearITPendingBit             ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_PVDCmd                           ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_PVDGetITStatus                   ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_PVDITConfig                      ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_PVDLevelConfig                   ********   *** removed from Debug\stm8l15x_pwr.o ***
+_PWR_UltraLowPowerCmd                 ********   *** removed from Debug\stm8l15x_pwr.o ***
+_RST_ClearFlag                        ********   *** removed from Debug\stm8l15x_rst.o ***
+_RST_GPOutputEnable                   ********   *** removed from Debug\stm8l15x_rst.o ***
+_RST_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_rst.o ***
+_RTC_AlarmCmd                         ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_AlarmStructInit                  ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_AlarmSubSecondConfig             ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_BypassShadowCmd                  ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_CalibOutputCmd                   ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_CalibOutputConfig                ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_ClearFlag                        ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_DateStructInit                   ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_DayLightSavingConfig             ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_DeInit                           ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_EnterInitMode                    ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_ExitInitMode                     ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetAlarm                         ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetDate                          ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetITStatus                      ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetStoreOperation                ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetSubSecond                     ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetTime                          ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_GetWakeUpCounter                 ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_ITConfig                         ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_Init                             ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_OutputConfig                     ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_RatioCmd                         ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_SetAlarm                         ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_SetDate                          ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_SetTime                          ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_SetWakeUpCounter                 ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_SmoothCalibConfig                ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_StructInit                       ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_SynchroShiftConfig               ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_TamperCmd                        ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_TamperFilterConfig               ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_TamperLevelConfig                ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_TamperPinsPrechargeDuration      ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_TamperSamplingFreqConfig         ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_TimeStructInit                   ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_WaitForSynchro                   ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_WakeUpClockConfig                ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_WakeUpCmd                        ********   *** removed from Debug\stm8l15x_rtc.o ***
+_RTC_WriteProtectionCmd               ********   *** removed from Debug\stm8l15x_rtc.o ***
+_SPI_BiDirectionalLineConfig          ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_CalculateCRCCmd                  ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_ClearFlag                        ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_ClearITPendingBit                ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_Cmd                              ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_DMACmd                           ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_DeInit                           ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_GetCRC                           ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_GetCRCPolynomial                 ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_GetFlagStatus                    ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_GetITStatus                      ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_ITConfig                         ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_Init                             ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_NSSInternalSoftwareCmd           ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_ReceiveData                      ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_ResetCRC                         ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_SendData                         ********   *** removed from Debug\stm8l15x_spi.o ***
+_SPI_TransmitCRC                      ********   *** removed from Debug\stm8l15x_spi.o ***
+_SYSCFG_REMAPDMAChannelConfig         ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_REMAPDeInit                   ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_REMAPPinConfig                ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIAnalogSwitchConfig          ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIDeInit                      ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIIOSwitchConfig              ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RIResistorConfig              ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSCFG_RITIMInputCaptureConfig       ********   *** removed from Debug\stm8l15x_syscfg.o ***
+_SYSDivFactor                         00008080   defined in Debug\stm8l15x_clk.o section .const
+_TIM1_ARRPreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_BDTRConfig                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CCPreloadControl                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CCxCmd                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CCxNCmd                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearFlag                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC1Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC2Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC3Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ClearOC4Ref                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_Cmd                             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CounterModeConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_CtrlPWMOutputs                  ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_DMACmd                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_DMAConfig                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_DeInit                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ETRClockMode1Config             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ETRClockMode2Config             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ETRConfig                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_EncoderInterfaceConfig          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ForcedOC1Config                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ForcedOC2Config                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ForcedOC3Config                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GenerateEvent                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture1                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture2                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture3                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCapture4                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetCounter                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetFlagStatus                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetITStatus                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_GetPrescaler                    ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ICInit                          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_ITConfig                        ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_InternalClockConfig             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1FastConfig                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1Init                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1NPolarityConfig              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1PolarityConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC1PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2FastConfig                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2Init                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2NPolarityConfig              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2PolarityConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC2PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3FastConfig                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3Init                         ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3NPolarityConfig              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3PolarityConfig               ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC3PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_OC4PreloadConfig                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_PWMIConfig                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_PrescalerConfig                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectCCDMA                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectCOM                       ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectHallSensor                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectInputTrigger              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectMasterSlaveMode           ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOCREFClear                ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOCxM                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOnePulseMode              ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectOutputTrigger             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SelectSlaveMode                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetAutoreload                   ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare1                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare2                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare3                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCompare4                     ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetCounter                      ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC1Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC2Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC3Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_SetIC4Prescaler                 ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_TIxExternalClockConfig          ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_TimeBaseInit                    ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_UpdateDisableConfig             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM1_UpdateRequestConfig             ********   *** removed from Debug\stm8l15x_tim1.o ***
+_TIM2_ARRPreloadConfig                ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_BKRConfig                       ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_CCxCmd                          ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ClearFlag                       ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_Cmd                             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_CounterModeConfig               ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_CtrlPWMOutputs                  ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_DMACmd                          ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_DeInit                          ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ETRClockMode1Config             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ETRClockMode2Config             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ETRConfig                       ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_EncoderInterfaceConfig          ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ForcedOC1Config                 ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ForcedOC2Config                 ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GenerateEvent                   ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GetCapture1                     ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GetCapture2                     ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GetCounter                      ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GetFlagStatus                   ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GetITStatus                     ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_GetPrescaler                    ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ICInit                          ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_ITConfig                        ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_InternalClockConfig             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC1FastConfig                   ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC1Init                         ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC1PolarityConfig               ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC1PreloadConfig                ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC2FastConfig                   ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC2Init                         ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC2PolarityConfig               ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_OC2PreloadConfig                ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_PWMIConfig                      ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_PrescalerConfig                 ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectCCDMA                     ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectHallSensor                ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectInputTrigger              ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectMasterSlaveMode           ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectOCxM                      ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectOnePulseMode              ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectOutputTrigger             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SelectSlaveMode                 ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SetAutoreload                   ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SetCompare1                     ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SetCompare2                     ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SetCounter                      ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SetIC1Prescaler                 ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_SetIC2Prescaler                 ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_TIxExternalClockConfig          ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_TimeBaseInit                    ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_UpdateDisableConfig             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM2_UpdateRequestConfig             ********   *** removed from Debug\stm8l15x_tim2.o ***
+_TIM3_ARRPreloadConfig                000086b1   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_BKRConfig                       0000878a   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_CCxCmd                          00008879   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ClearFlag                       000089fa   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ClearITPendingBit               00008a2b   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_Cmd                             000086ce   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_CounterModeConfig               0000863e   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_CtrlPWMOutputs                  0000879f   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_DMACmd                          00008a30   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_DeInit                          000085a1   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_ETRClockMode1Config             00008a8f   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ETRClockMode2Config             00008abe   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ETRConfig                       00008b2c   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_EncoderInterfaceConfig          00008b3a   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ForcedOC1Config                 000087ef   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ForcedOC2Config                 00008809   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GenerateEvent                   000089d1   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GetCapture1                     00008938   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GetCapture2                     0000895e   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GetCounter                      0000866a   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GetFlagStatus                   000089d8   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GetITStatus                     00008a08   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_GetPrescaler                    00008690   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ICInit                          0000889e   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_ITConfig                        000089b8   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_InternalClockConfig             00008a57   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC1FastConfig                   0000883f   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC1Init                         000086dc   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC1PolarityConfig               0000885b   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC1PreloadConfig                00008823   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC2FastConfig                   0000884d   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC2Init                         00008733   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_OC2PolarityConfig               0000886a   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_OC2PreloadConfig                00008831   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_PWMIConfig                      000088cb   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_PrescalerConfig                 0000862a   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectCCDMA                     00008a49   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectHallSensor                00008ba0   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectInputTrigger              00008ad0   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectMasterSlaveMode           00008b1e   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectOCxM                      000087ad   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectOnePulseMode              000086bf   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectOutputTrigger             00008aea   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SelectSlaveMode                 00008b04   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SetAutoreload                   00008661   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SetCompare1                     000087dd   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SetCompare2                     000087e6   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_SetCounter                      00008658   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SetIC1Prescaler                 00008984   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_SetIC2Prescaler                 0000899e   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_TIxExternalClockConfig          00008a60   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_TimeBaseInit                    00008606   defined in Debug\stm8l15x_tim3.o section .text
+                                                 used in Debug\main.o
+_TIM3_UpdateDisableConfig             00008694   defined in Debug\stm8l15x_tim3.o section .text
+_TIM3_UpdateRequestConfig             000086a2   defined in Debug\stm8l15x_tim3.o section .text
+_TIM4_ARRPreloadConfig                ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_ClearFlag                       ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_Cmd                             ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_DMACmd                          ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_DeInit                          ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_GenerateEvent                   ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_GetCounter                      ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_GetFlagStatus                   ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_GetITStatus                     ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_GetPrescaler                    ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_ITConfig                        ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_InternalClockConfig             ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_PrescalerConfig                 ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SelectInputTrigger              ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SelectMasterSlaveMode           ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SelectOnePulseMode              ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SelectOutputTrigger             ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SelectSlaveMode                 ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SetAutoreload                   ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_SetCounter                      ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_TimeBaseInit                    ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_UpdateDisableConfig             ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM4_UpdateRequestConfig             ********   *** removed from Debug\stm8l15x_tim4.o ***
+_TIM5_ARRPreloadConfig                ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_BKRConfig                       ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_CCxCmd                          ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ClearFlag                       ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ClearITPendingBit               ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_Cmd                             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_CounterModeConfig               ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_CtrlPWMOutputs                  ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_DMACmd                          ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_DeInit                          ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ETRClockMode1Config             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ETRClockMode2Config             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ETRConfig                       ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_EncoderInterfaceConfig          ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ForcedOC1Config                 ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ForcedOC2Config                 ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GenerateEvent                   ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GetCapture1                     ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GetCapture2                     ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GetCounter                      ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GetFlagStatus                   ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GetITStatus                     ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_GetPrescaler                    ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ICInit                          ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_ITConfig                        ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_InternalClockConfig             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC1FastConfig                   ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC1Init                         ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC1PolarityConfig               ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC1PreloadConfig                ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC2FastConfig                   ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC2Init                         ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC2PolarityConfig               ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_OC2PreloadConfig                ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_PWMIConfig                      ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_PrescalerConfig                 ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectCCDMA                     ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectHallSensor                ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectInputTrigger              ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectMasterSlaveMode           ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectOCxM                      ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectOnePulseMode              ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectOutputTrigger             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SelectSlaveMode                 ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SetAutoreload                   ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SetCompare1                     ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SetCompare2                     ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SetCounter                      ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SetIC1Prescaler                 ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_SetIC2Prescaler                 ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_TIxExternalClockConfig          ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_TimeBaseInit                    ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_UpdateDisableConfig             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_TIM5_UpdateRequestConfig             ********   *** removed from Debug\stm8l15x_tim5.o ***
+_USART_ClearFlag                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ClearITPendingBit              ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ClockInit                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_Cmd                            ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_DMACmd                         ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_DeInit                         ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_GetFlagStatus                  ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_GetITStatus                    ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_HalfDuplexCmd                  ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ITConfig                       ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_Init                           ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_IrDACmd                        ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_IrDAConfig                     ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ReceiveData8                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ReceiveData9                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_ReceiverWakeUpCmd              ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SendBreak                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SendData8                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SendData9                      ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SetAddress                     ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SetGuardTime                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SetPrescaler                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SmartCardCmd                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_SmartCardNACKCmd               ********   *** removed from Debug\stm8l15x_usart.o ***
+_USART_WakeUpConfig                   ********   *** removed from Debug\stm8l15x_usart.o ***
+_WFE_DeInit                           ********   *** removed from Debug\stm8l15x_wfe.o ***
+_WFE_GetWakeUpSourceEventStatus       ********   *** removed from Debug\stm8l15x_wfe.o ***
+_WFE_WakeUpSourceEventCmd             ********   *** removed from Debug\stm8l15x_wfe.o ***
+_WWDG_Enable                          ********   *** removed from Debug\stm8l15x_wwdg.o ***
+_WWDG_GetCounter                      ********   *** removed from Debug\stm8l15x_wwdg.o ***
+_WWDG_Init                            ********   *** removed from Debug\stm8l15x_wwdg.o ***
+_WWDG_SWReset                         ********   *** removed from Debug\stm8l15x_wwdg.o ***
+_WWDG_SetCounter                      ********   *** removed from Debug\stm8l15x_wwdg.o ***
+_WWDG_SetWindowValue                  ********   *** removed from Debug\stm8l15x_wwdg.o ***
+__endmem                              000005fe   defined in command file
+                                                 *** not used ***
+__endzp                               0000000a   defined in command file section .ubsct
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                             00008085   defined in linker section .init
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                              00000100   defined in command file section .bss
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                               000007ff   defined in command file
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                            00000100   defined in command file section .bss
+                                                 *** not used ***
+__stext                               00008088   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                                 used in Debug\stm8_interrupt_vector.o
+__vectab                              00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_exit                                 000080d6   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_main                                 000080ed   defined in Debug\main.o section .text
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+c_cmulx                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)cmulx.o ***
+c_divsl                               00008c64   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                                 *** not used ***
+c_divul                               00008c7b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o
+c_imul                                ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)imul.o ***
+c_ladd                                ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o ***
+c_lcmp                                ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o ***
+c_lgadd                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o ***
+c_lgneg                               00008d4f   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lgsbc                               00008c28   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgsbc.o section .text
+                                                 used in Debug\main.o
+c_lmul                                ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o ***
+c_lmulc                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o ***
+c_lneg                                00008d62   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o section .text
+                                                 used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lreg                                00000000   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                                 used in Debug\stm8l15x_beep.o
+                                                         Debug\stm8l15x_clk.o
+                                                         Debug\stm8l15x_flash.o
+                                                         Debug\stm8l15x_i2c.o
+                                                         Debug\stm8l15x_usart.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)cmulx.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ladd.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgadd.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lursh.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)smul.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utol.o
+c_ltor                                00008c3e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                                 used in Debug\stm8l15x_beep.o
+                                                         Debug\stm8l15x_clk.o
+                                                         Debug\stm8l15x_i2c.o
+                                                         Debug\stm8l15x_usart.o
+c_ludv                                00008c50   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o section .text
+                                                 used in Debug\stm8l15x_beep.o
+                                                         Debug\stm8l15x_clk.o
+                                                         Debug\stm8l15x_i2c.o
+                                                         Debug\stm8l15x_usart.o
+c_lursh                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lursh.o ***
+c_lzmp                                00008d77   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lzmp.o section .text
+                                                 used in Debug\main.o
+                                                         Debug\stm8l15x_i2c.o
+c_rtol                                00008d8a   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                                 used in Debug\stm8l15x_clk.o
+                                                         Debug\stm8l15x_i2c.o
+                                                         Debug\stm8l15x_usart.o
+c_sdivx                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o ***
+c_smodx                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o ***
+c_smul                                ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)smul.o ***
+c_uitol                               ********   *** removed from (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utol.o ***
+c_x                                   00000004   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                         Debug\stm8l15x_beep.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)imul.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lmul.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                         (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)sdivx.o
+c_y                                   00000007   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                                 used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+f_NonHandledInterrupt                 00008d9c   defined in Debug\stm8_interrupt_vector.o section .text
