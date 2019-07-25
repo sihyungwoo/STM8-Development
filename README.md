@@ -12,9 +12,7 @@ STVD uses the Cosmic C toolchain for the STM8. It's free and you can download it
 
 Make sure you have all necessary drivers installed i.e. USB driver for ST-LINK/V2
 
-<<<<<<< HEAD
 Within the 'setup' directory, you'll find an example project using STVD and documentation for setting up your own projects.
-
 
 
 Currently Included are:
