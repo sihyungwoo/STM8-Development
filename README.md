@@ -20,3 +20,7 @@ Currently Included are:
 	2.) an I2C example project for the STM8L050J3 reading temperature values from the MCP9808 I2C Digital Temperature Sensor (Breakout modules available from Adafruit and Seeed). The I2C example project uses the Std Periph Libr.
 	3.) a PWM output example project for STM8L-DISCOVERY board (STML8152C6) using TIM3 and PWM2
 
+
+***NOTE:
+	To open a project using STVD, go to 'Files -> Open Workspace...' then open the project's '.stw' file.
+***
