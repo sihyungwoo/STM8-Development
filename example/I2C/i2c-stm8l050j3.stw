@@ -1,0 +1,12 @@
+;	STMicroelectronics Workspace file
+
+[Version]
+Keyword=ST7Workspace-V0.7
+
+[Project0]
+Filename=i2c-stm8l050j3.stp
+Dependencies=
+[Options]
+ActiveProject=i2c-stm8l050j3
+ActiveConfig=Debug
+AddSortedElements=1
