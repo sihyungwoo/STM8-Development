@@ -1,4 +1,4 @@
-# STM8-Development
+# STM8L Development
 Library and Tutorial for development on STM8L05x, STM8L15x, STM8L16x, STM8AL31x series
 
 
@@ -15,11 +15,11 @@ Make sure you have all necessary drivers installed i.e. USB driver for ST-LINK/V
 Within the 'setup' directory, you'll find an example project using STVD and documentation for setting up your own projects.
 
 
-Currently Included are: 
-1.) an example 'test' template project for the STM8L-DISCOVERY board
-2.) an I2C example project for the STM8L050J3 reading temperature values from the MCP9808 I2C Digital Temperature Sensor (Breakout modules available from Adafruit and Seeed). The I2C example project uses the Std Periph Libr.
-3.) a PWM output example project for STM8L-DISCOVERY board (STML8152C6) using TIM3 and PWM2
-4.) an independent watchdog example project
+Currently Included are:\
+1.) an example 'test' template project for the STM8L-DISCOVERY board\
+2.) an I2C example project for the STM8L050J3 reading temperature values from the MCP9808 I2C Digital Temperature Sensor (Breakout modules available from Adafruit and Seeed). The I2C example project uses the Std Periph Libr.\
+3.) a PWM output example project for STM8L-DISCOVERY board (STML8152C6) using TIM3 and PWM2\
+4.) an independent watchdog example project using STM8L-DISCOVERY board
 
 ***NOTE:
 	To open a project using STVD, go to 'Files -> Open Workspace...' then open the project's '.stw' file.
