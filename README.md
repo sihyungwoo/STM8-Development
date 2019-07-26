@@ -7,7 +7,8 @@ Download links for STVD and STVP\
 STVD: https://www.st.com/en/development-tools/stvd-stm8.html \
 STVP: https://www.st.com/en/development-tools/stvp-stm8.html
 
-STVD uses the Cosmic C toolchain for the STM8. It's free and you can download it from: https://www.cosmic-software.com/download.php
+STVD uses the Cosmic C toolchain for the STM8. It's free and you can download it from: \
+https://www.cosmic-software.com/download.php
 
 Make sure you have all necessary drivers installed i.e. USB driver for ST-LINK/V2
 
