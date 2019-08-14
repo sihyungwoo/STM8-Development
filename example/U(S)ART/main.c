@@ -2,12 +2,18 @@
  *		Shows two ways to initialize USART and UART.
  *		USART is a synchronous version of UART (meaning
  *		there's a clock)
+ *	
+ *		As a reminder, you can use UART with the USART
+ *		peripheral, but	you can't use USART if your 
+ *		MCU/STM8 only has the UART peripheral.
  *
  *		**** UNTESTED ****
  *		Please refer to the reference manual (RM0031 on ST) 
  *		for all information about the registers. You may use
  *		the SPL, but you gain more freedom when you set the
  *		register bits yourself. 
+ *
+ *		
  *
  *
  * 	Pins on STM8L050J3:
@@ -75,9 +81,13 @@ void Delay(__IO uint32_t nCount)
 //		Pin 2 - PA3: USART_RX (Alternate)
 //		Pin 1 - PA2: USART_TX (Alternate) 
 int main() {
-	// Initialize Clock
-	Delay(150000);			// Pin 1 gets used. Add delay for SWIM programming
+	// Pin 1 on the STM8L050J3 is primarily used for the SWIM function.
+	//	 You may notice that one of the USART pins require pin 1, so
+	//	 if you still want to program the board, this delay is set
+	//	 to give you time to program the board after power-up.
+	Delay(150000);			
 	
+	// Initialize Clock
 	CLK_DeInit();
 
 	CLK_LSICmd(DISABLE);	// Use internal high speed clock (16MHz).
@@ -139,6 +149,10 @@ int main() {
 //		Pin 1 - PC6: USART_RX
 //		Pin 8 - PC5: USART_TX
 int main() {
+	// Pin 1 on the STM8L050J3 is primarily used for the SWIM function.
+	//	 You may notice that one of the USART pins require pin 1, so
+	//	 if you still want to program the board, this delay is set
+	//	 to give you time to program the board after power-up.	
 	Delay(150000);				// Pin 1 gets used. Add delay for SWIM programming	
 	
 	// Initialize Clock
