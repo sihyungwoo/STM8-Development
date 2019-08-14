@@ -1,10 +1,13 @@
 /**	UART / USART Example
- *
- *		**** UNTESTED ****
- *
  *		Shows two ways to initialize USART and UART.
  *		USART is a synchronous version of UART (meaning
  *		there's a clock)
+ *
+ *		**** UNTESTED ****
+ *		Please refer to the reference manual (RM0031 on ST) 
+ *		for all information about the registers. You may use
+ *		the SPL, but you gain more freedom when you set the
+ *		register bits yourself. 
  *
  *
  * 	Pins on STM8L050J3:
